@@ -1,0 +1,15 @@
+{
+	"name": "project101-dev-adf-jin",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "16e10f8c-6218-40e9-9f36-9256b477cae9",
+		"tenantId": "b348ef3e-af3a-473e-a88c-dde3060c8650"
+	}
+}

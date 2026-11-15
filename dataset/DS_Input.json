@@ -1,0 +1,65 @@
+{
+	"name": "DS_Input",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_Input_Storage_Dev",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Employees.csv",
+				"container": "input"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "1",
+				"type": "String"
+			},
+			{
+				"name": "11",
+				"type": "String"
+			},
+			{
+				"name": "Guy",
+				"type": "String"
+			},
+			{
+				"name": "Gilbert",
+				"type": "String"
+			},
+			{
+				"name": "Production Technician - WC60",
+				"type": "String"
+			},
+			{
+				"name": "2006-01-28",
+				"type": "String"
+			},
+			{
+				"name": "1981-11-12",
+				"type": "String"
+			},
+			{
+				"name": "guy1@adventure-works.com",
+				"type": "String"
+			},
+			{
+				"name": "M",
+				"type": "String"
+			},
+			{
+				"name": "Production",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
